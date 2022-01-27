@@ -146,9 +146,25 @@ main {
     font-weight: 700;
 }
 
+.teck {
+    margin-top: 5px;
+}
+
+.teck strong {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.teck h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
 #tecks {
     width: 100%;
-    height: 445px;
+    height: 481px;
     background: black;
     margin-top: 32px;
 }
@@ -169,6 +185,10 @@ main {
 
 .tecks .tecks-info h1 {
     font-size: 45px;
+}
+
+.teck strong {
+    font-family: 'Roboto', sans-serif;
 }
 
 .tecks .tecks-info p {
@@ -198,3 +218,9 @@ main {
    gap: 20px;
    margin-bottom: 75px;
 }
+
+.teck-list ul li img {
+    width: 60px;
+    height: 60px;
+}
+
