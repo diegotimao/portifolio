@@ -25,8 +25,9 @@ body {
     align-items: center;
 }
 
-.menu a {
+.menu li a {
     text-decoration: none;
+    color: white;
 }
 
 .nav ul {
