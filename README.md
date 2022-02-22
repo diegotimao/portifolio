@@ -1,6 +1,6 @@
 # Portifolio Diego Cavalcanti
 
-O portifólio, foi desenvolvido como forma de por em prática meus conhecimentos em HTML e CSS, é uma página web que contém informações dobre mim, tecnologias em que estouestudando no momento, sessão de projetos já realizados e informações de contato. Para isto foi ultilizado css e html.
+O portifólio, foi desenvolvido como forma de por em prática meus conhecimentos em HTML e CSS, é uma página web que contém informações dobre mim, tecnologias em que estou estudando no momento, sessão de projetos já realizados e informações de contato. Para isto foi ultilizado css e html.
 
 <h4 align="center"> 
 	🚧  Portifolio Dev 🚀 Concluído  🚧
