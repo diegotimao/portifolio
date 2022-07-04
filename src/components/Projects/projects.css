@@ -1,0 +1,262 @@
+.projects-container {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.projects-content {
+  background: #1A1927;
+}
+
+.projects-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 0 20px 30px;
+}
+
+.github {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  gap: 15px;
+}
+
+.github h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.projects-info-git ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.git-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.git-info h1 {
+  font-size: 12px;
+}
+
+.list-container {
+  width: 100%;
+  border-top: 1px solid gray;
+  background: black;
+}
+
+.list-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.title {
+  width: 100%;
+}
+
+.title h2 {
+  font-size: 26px;
+}
+
+.list-projects {
+  width: 100%;
+}
+
+.list-projects ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.project-item {
+  width: 100%;
+  padding: 20px;
+  border-radius: 4px;
+  background: #272B35;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.span-folder {
+  display: flex;
+  gap: 15px;
+}
+
+.span-folder h4 {
+  color: #ffffff;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-project {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.action-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.description-project strong {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.span-visibility {
+  background: #343e6480;
+  padding: 5px;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.568);
+}
+
+.tags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tags span {
+  color: #dd5634d0;
+}
+
+.tags button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background: #14498f;
+}
+
+.action-project button {
+  padding: 8px 15px;
+}
+
+.acess-git {
+  margin-top: 20px;
+}
+
+.acess-git button {
+  cursor: pointer;
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.acess-git button:hover {
+  background: #14498f;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .list-content {
+    padding: 55px 40px;
+  }
+
+  .list-projects ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.acess-git {
+  width: 100%;
+  background: #036B52;
+  border-radius: 4px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -40px;
+}
+
+.acess-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.acess-info img {
+  width: 50px;
+}
+
+.acess-info p {
+  line-height: 26px;
+}
+
+.acess-git button {
+  width: 100%;
+  height: 45px;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  background: #6C63FF;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .list-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: flex;
+    gap: 55px;
+  }
+  
+  .github img {
+    width: 120px;
+    margin-top: -5px;
+  }
+
+  .title h3 {
+    font-size: 34px;
+    font-weight: 700;
+  }
+
+  
+  .acess-git {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -60px;
+  }
+
+  .acess-git button {
+    width: 180px;
+    margin-top: 0;
+  }
+
+  .acess-info {
+    display: flex;
+    flex-direction: row;
+  }
+}

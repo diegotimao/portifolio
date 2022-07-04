@@ -1,0 +1,121 @@
+.contato-container {
+  width: 100;
+}
+
+.contato-content {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.contato-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.contato-info h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+}
+
+.contato-info p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  width: 400px;
+  line-height: 30px;
+  font-weight: 400;
+  color: gray;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 0 auto;
+  gap: 18px;
+  padding: 40px 20px;
+}
+
+.form .icon-input input {
+  width: 100%;
+  height: 47px;
+  
+  border-radius: 4px;
+  background: white;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+}
+
+.icon-input input[type=text] {
+  padding-left: 60px;
+  border: none;
+}
+
+.icon-input {
+  position: relative;
+}
+
+.icon-input img {
+  position: absolute;
+  left: 0;
+  
+  padding: 3px 11px;
+  transition: .3s;
+}
+
+.input[type=text] {
+  outline: none;
+  box-sizing: border-box;
+  transition: .3s;
+}
+
+input[type=text]:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.icon-input input[type=text]:focus {
+  color: black;
+}
+
+.icon-input.inputIcon img {
+  background: #6C63FF;
+  padding: 12px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+#mensagem {
+  background: white;
+  color: black;
+  padding: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.btn-submit {
+  height: 45px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  background: #07B36C;
+  cursor: pointer;
+}
