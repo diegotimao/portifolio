@@ -1,6 +1,7 @@
 .teck-container {
   width: 100%;
-  background: black;
+  border-top: 1px solid rgb(239, 232, 232);
+  border-bottom: 1px solid rgb(239, 232, 232);
 }
 
 .teck-content {
@@ -16,6 +17,11 @@
 
 .teck-info h1 {
   font-size: 26px;
+  color: black;
+}
+
+.teck-info strong {
+  color: black;
 }
 
 .teck-info-project strong {
@@ -55,6 +61,10 @@
   .teck-content {
     padding: 40px;
   }
+
+  .tec-info strong {
+    font-size: 26px;
+  }
   
   .list {
     display: grid;
@@ -86,9 +96,10 @@
   }
 
   .teck-info strong {
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 400;
-    max-width: 380px;
+    max-width: 400px;
+    line-height: 26px;
   }
 
   .list {

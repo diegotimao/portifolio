@@ -1,0 +1,52 @@
+.my-container {
+  width: 100%;
+  background: white;
+}
+
+.my-content {
+  max-width: 1220px;
+  margin: 0 auto;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.my-sobre {
+  color: black;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.my-sobre span {
+  color: #EB6608;
+}
+
+.my-sobre h1 {
+  font-size: 38px;
+}
+
+.my-sobre p {
+  line-height: 32px;
+  font-size: 21px;
+  text-align: justify
+}
+
+.photo-image {
+  padding-top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-image img {
+  width: 70%;
+}
+
+@media screen and (min-width: 1024px) {
+  .my-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

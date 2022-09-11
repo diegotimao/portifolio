@@ -1,7 +1,7 @@
 .footer-container {
-  background: black;
   width: 100%;
-  margin-top: 25px;
+  background: #fdfdfd;
+  border-top: 1px solid rgb(234, 224, 224);
 }
 
 .footer-content {
@@ -12,13 +12,11 @@
   align-items: center;
   gap: 25px;
   padding: 20px;
-}
-
-.footer-content img {
-  width: 150px;
+  color: rgb(71, 66, 66);
 }
 
 .footer-content strong {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
 }
+

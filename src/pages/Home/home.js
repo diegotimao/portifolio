@@ -2,13 +2,14 @@ import React, { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import Banner from '../../components/Banner/Banner';
-import Sobre from '../../components/Sobre/sobre';
-import Tecks from '../../components/Tecks/teck';
-import Trybe from '../../components/Trybe/Trybe';
-import Projects from '../../components/Projects/Projects';
-import Contato from '../../components/Contato/contato';
-import Footer from '../../components/Footer/Footer';
+import Banner from '../../components/Banner';
+import Sobre from '../../components/Sobre';
+import Tecks from '../../components/Tecks';
+import Projetos from '../../components/projects';
+import Header from '../../components/Header';
+import Contato from '../../components/Contato';
+import Footer from '../../components/Footer';
+import Motiva from '../../components/motiva';
 
 function Home() {
   useEffect(() => {
@@ -17,11 +18,12 @@ function Home() {
 
   return (
     <main>
+      <Header />
       <Banner />
       <Sobre />
+      <Motiva />
       <Tecks />
-      <Trybe />
-      <Projects />
+      <Projetos />
       <Contato />
       <Footer />
     </main>

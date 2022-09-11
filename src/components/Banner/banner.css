@@ -1,10 +1,13 @@
 .banner-container {
   width: 100%;
-  height: 100vh;
+  height: 620px;
+  /* background: #6C63FF; */
   background-image: url('../../assets/banner.svg');
   background-position: center;
   background-repeat: none;
   background-size: cover;
+  border-top: 1px solid rgb(204, 199, 199);
+  border-bottom: 1px solid rgb(204, 199, 199);
 }
 
 .banner-content {
@@ -56,7 +59,7 @@
 }
 
 .user-description strong {
-  color: #07B36C;
+  color: #00ff95;
   font-size: 25px;
 }
 
@@ -66,27 +69,35 @@
   margin-top: 35px;
 }
 
-.btn-github, .btn-instagram, .btn-linkedin {
-  width: 54px;
+.btn-github {
+  width: 254px;
   height: 54px;
-  border-radius: 4px;
+  border-radius: 6px;
   border: none;
   cursor: pointer;
+  text-decoration: none;
+  background: #EB6608;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  transition: ease-in-out;
+  transition-duration: 5ms;
+}
+
+.btn-github:hover {
+  background: #f5781e;
+}
+
+.btn-github img {
+  width: 25px;
 }
 
 .icon-social {
   width: 35px;
-}
-
-.btn-instagram {
-  background: #DF2041;
-}
-
-.btn-github {
-  background: #184741;
-}
-.btn-linkedin {
-  background: #0066FF;
 }
 
 .btn-bottom {

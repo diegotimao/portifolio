@@ -6,7 +6,7 @@ import iconTrybe from '../../assets/icontrybe.svg';
 
 function Sobre() {
   return (
-    <div className="sobre-container">
+    <section id="sobre" className="sobre-container">
       <div className="sobre-content">
         <div className="avatar-user">
           <img src={ AvatarSobre } alt="Avatar-sobre" />
@@ -28,14 +28,10 @@ function Sobre() {
               <img src={ cetepIcon } alt="Cetep icon" data-aos="fade-down" data-aos-duration="600"/>
               <img src={ iconTrybe } alt="Trybe icon" data-aos="fade-down" data-aos-duration="600"/>
             </div>
-            <button
-              type="button"
-              className="btn-sobre-user"
-            >Ver mais</button>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

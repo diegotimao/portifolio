@@ -4,7 +4,7 @@ import './teck.css';
  
 function Tecks() {
   return (
-    <div className="teck-container">
+    <section id="tecks" className="teck-container">
       <div className="teck-content">
         <div className="teck-info">
           <h1>Tecks</h1>
@@ -24,7 +24,7 @@ function Tecks() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 } 
 

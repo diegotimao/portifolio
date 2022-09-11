@@ -1,5 +1,6 @@
 .sobre-container {
   width: 100%;
+  background: white;
 }
 
 .sobre-content {
@@ -11,7 +12,7 @@
 
 .sobre-content img {
   width: 270px;
-  margin: 15px auto;
+  margin: 15px auto; 
 }
 
 .sobre-info {
@@ -28,24 +29,23 @@
   font-size: 26px;
   max-width: 250px;
   line-height: 31px;
+  color: black;
 }
 
 .sobre-info p {
   font-size: 16px;
   font-weight: 400;
   color: white;
+  color: black;
 }
 
 .sobre-info strong {
-  color: white;
+  color: black;
   font-size: 16px;
 }
 
 .avatar-user {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .oraganization {
