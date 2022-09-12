@@ -1,28 +1,27 @@
 .banner-container {
-  width: 100%;
-  height: 620px;
-  /* background: #6C63FF; */
   background-image: url('../../assets/banner.svg');
   background-position: center;
   background-repeat: none;
   background-size: cover;
   border-top: 1px solid rgb(204, 199, 199);
   border-bottom: 1px solid rgb(204, 199, 199);
+  height: 620px;
+  width: 100%;
 }
 
 .banner-content {
-  width: 100%;
-  height: 100%;
-  padding: 0 20px;
   display: flex;
+  height: 100%;
   flex-direction: column;
   justify-content: space-between;
+  padding: 0 20px;
+  width: 100%;
 }
 
 .header-nav {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding-top: 35px;
 }
 
@@ -40,18 +39,18 @@
 }
 
 .sobre-user {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 .user-description {
-  width: 100%;
-  height: 100%;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
 }
 
 .user-description h1 {
@@ -70,22 +69,22 @@
 }
 
 .btn-github {
-  width: 254px;
-  height: 54px;
+  align-items: center;
+  background: #EB6608;
   border-radius: 6px;
   border: none;
+  color: white;
   cursor: pointer;
+  display: flex;
   text-decoration: none;
-  background: #EB6608;
   font-weight: 700;
   font-size: 16px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 15px;
+  justify-content: center;
   transition: ease-in-out;
   transition-duration: 5ms;
+  width: 254px;
+  height: 54px;
 }
 
 .btn-github:hover {
@@ -101,21 +100,21 @@
 }
 
 .btn-bottom {
-  width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 55px;
+  width: 100%;
 }
 
 .menu-list li {
+  cursor: pointer;
   font-size: 22px;
   font-weight: 500;
-  cursor: pointer;
 }
 
 .menu-hamburguer-list {
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -132,15 +131,15 @@
   }
 
   .menu-list {
-    list-style: none;
     display: flex;
     gap: 25px;
+    list-style: none;
   }
 
   .sobre-user {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
 
   .user-description {
@@ -177,15 +176,15 @@
   }
 
   .menu-list {
-    list-style: none;
     display: flex;
+    list-style: none;
     gap: 25px;
   }
 
   .sobre-user {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
 
   .user-description {

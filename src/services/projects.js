@@ -13,7 +13,7 @@ const projects = [
   },
   {
     image: trivia,
-    title: 'trivia Api',
+    title: 'Trivia Api',
     description: 'Através desta aplicação o usuário pode ver comics card disponibilizados pela api da marvel e selecionar um endereço de entrega através no mapa geografico.',
     urlPreviwer: 'https://jogo-trivia-sandy.vercel.app/',
     urlCode: 'https://github.com/diegotimao/jogo-trivia',

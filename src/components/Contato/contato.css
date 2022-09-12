@@ -1,17 +1,17 @@
 .contato-container {
-  width: 100%;
-  padding: 20px;
   border-top: 1px solid rgb(239, 232, 232);
+  padding: 20px;
+  width: 100%;
 }
 
 .contato-content {
-  max-width: 1220px;
-  padding: 50px 20px;
-  margin: 0 auto;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 25px;
+  margin: 0 auto;
+  max-width: 1220px;
+  padding: 50px 20px;
 }
 
 .contact-image {
@@ -45,26 +45,26 @@
 }
 
 .btn-contact button {
+  align-items: center;
+  animation-duration: 8ms;
   border: none;
   border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  display: flex;
   font-weight: 700;
   font-size: 17px;
-  color: white;
-  width: 100%;
-  height: 55px;
-  cursor: pointer;
-  transition: ease-in-out;
-  animation-duration: 8ms;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 10px;
+  height: 55px;
+  transition: ease-in-out;
+  justify-content: center;
   outline: none;
+  width: 100%;
 }
 
 .btn-contact button span {
-  margin-top: 5px;
   font-size: 18px;
+  margin-top: 5px;
 }
 
 .btn-contact button {
@@ -88,7 +88,7 @@
 }
 
 .btn-contact button:last-child:hover {
-  background: #65f6a6;
+  background: #3d3181;
 }
 
 .btn-contact button:last-child img {
@@ -103,8 +103,8 @@
 
   .btn-contact {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
   }
   .contact-image {
     width: 50%;

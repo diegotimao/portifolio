@@ -1,7 +1,7 @@
 .teck-container {
-  width: 100%;
-  border-top: 1px solid rgb(239, 232, 232);
   border-bottom: 1px solid rgb(239, 232, 232);
+  border-top: 1px solid rgb(239, 232, 232);
+  width: 100%;
 }
 
 .teck-content {
@@ -16,8 +16,8 @@
 }
 
 .teck-info h1 {
-  font-size: 26px;
   color: black;
+  font-size: 26px;
 }
 
 .teck-info strong {
@@ -25,12 +25,12 @@
 }
 
 .teck-info-project strong {
-  line-height: 26px;
-  font-weight: 400;
-  margin-top: -8px;
-  font-weight: 400;
   color: #bbc1cc;
+  font-weight: 400;
+  font-weight: 400;
   font-size: 16px;
+  line-height: 26px;
+  margin-top: -8px;
 }
 
 .teck-list {
@@ -44,13 +44,13 @@
 }
 
 .teck-item {
+  align-items: center;
+  background: #272B35;
+  border-radius: 4px;
+  display: flex;
+  gap: 20px;
   padding: 8px 20px;
   width: 100%;
-  background: #272B35;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  border-radius: 4px;
 }
 
 .teck-item h2 {
@@ -68,26 +68,26 @@
   
   .list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (min-width: 1024px) {
   .teck-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 65px 20px;
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 65px 20px;
   }
 
   .teck-info {
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
   }
 
   .teck-info h1 {
@@ -98,13 +98,13 @@
   .teck-info strong {
     font-size: 19px;
     font-weight: 400;
-    max-width: 400px;
     line-height: 26px;
+    max-width: 400px;
   }
 
   .list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
   }
 }

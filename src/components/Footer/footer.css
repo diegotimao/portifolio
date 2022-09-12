@@ -1,18 +1,18 @@
 .footer-container {
-  width: 100%;
   background: #fdfdfd;
   border-top: 1px solid rgb(234, 224, 224);
+  width: 100%;
 }
 
 .footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
+  align-items: center;
+  color: rgb(71, 66, 66);
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 25px;
   padding: 20px;
-  color: rgb(71, 66, 66);
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .footer-content strong {
