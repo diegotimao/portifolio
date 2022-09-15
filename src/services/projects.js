@@ -13,22 +13,22 @@ const projects = [
   },
   {
     image: trivia,
-    title: 'Trivia Api',
-    description: 'Através desta aplicação o usuário pode ver comics card disponibilizados pela api da marvel e selecionar um endereço de entrega através no mapa geografico.',
+    title: 'Jogo de Trivia',
+    description: 'Através desta aplicação o usuário se diverte com um jogo de perguntas e respostas, sua pontuação é calculada em tempo real bem como o ranking.',
     urlPreviwer: 'https://jogo-trivia-sandy.vercel.app/',
     urlCode: 'https://github.com/diegotimao/jogo-trivia',
   },
   {
     image: recipes,
     title: 'Recipes App',
-    description: 'Aplicativo de receitas consumindo api de comidas e bebidas, desenvolvida em ResactJs ultilizando o redux.',
+    description: 'Aplicativo de receitas consumindo api de comidas e bebidas, desenvolvida em ResactJs utilizando o redux.',
     urlPreviwer: 'https://recipes-app-red-eight.vercel.app/',
     urlCode: 'https://github.com/diegotimao/recipes-app',
   },
   {
     image: pixelsImage,
     title: 'Pixels arte',
-    description: 'Paleta de cores, em javascript vanilha, com manipulação de eventos e funções puras do javascript.',
+    description: 'Paleta de cores em javascript vanilha com manipulação de eventos e funções puras do javascript.',
     urlPreviwer: 'https://trybe-projeto-pixels-art.vercel.app/',
     urlCode: 'https://github.com/diegotimao/trybe-projeto-pixels-art',
   }

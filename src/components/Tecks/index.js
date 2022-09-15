@@ -7,8 +7,8 @@ function Tecks() {
     <section id="tecks" className="teck-container">
       <div className="teck-content">
         <div className="teck-info">
-          <h1>Tecks</h1>
-          <strong>Um pouco sobre minhas tecnologias de estudo no mundo da programação.</strong>
+          <h1>Tecnologias</h1>
+          <strong>Algumas das tecnologias em que tenho conhecimento no mundo da programação.</strong>
         </div>
         <div className="teck-list">
           <div className="list">

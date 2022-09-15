@@ -16,10 +16,13 @@
 
 .contact-image {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-image img {
-  width: 100%;
+  width: 80%;
 }
 
 .contact-us {

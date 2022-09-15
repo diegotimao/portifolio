@@ -1,6 +1,7 @@
 .my-container {
   background: white;
   width: 100%;
+  padding-bottom: 55px;
 }
 
 .my-content {
@@ -24,29 +25,41 @@
 }
 
 .my-sobre h1 {
-  font-size: 38px;
+  font-size: 32px;
 }
 
 .my-sobre p {
   line-height: 32px;
-  font-size: 21px;
+  font-size: 16px;
   text-align: justify
 }
 
 .photo-image {
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   padding-top: 55px;
+  width: 100%;
 }
 
 .photo-image img {
-  width: 70%;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 @media screen and (min-width: 1024px) {
   .my-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .my-sobre h1 {
+    font-size: 40px;
+  }
+
+  .my-sobre p {
+    font-size: 20px;
   }
 }

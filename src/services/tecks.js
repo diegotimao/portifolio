@@ -1,38 +1,38 @@
-import htmlImage from '../assets/html.svg';
+import typescriptImage from '../assets/typescript.svg';
 import gitImage from '../assets/git.svg';
-import cssImage from '../assets/css.svg';
+import dockerImage from '../assets/docker.svg';
 import javascriptImage from '../assets/javascript.svg';
 import nodeImage from '../assets/node.svg';
-import reactImage from '../assets/react.svg';
+import reactImage from '../assets/reactjs.svg';
 
 const tecks = [
   {
-    teckname: 'HTML',
-    icon: htmlImage,
-    description: 'Linguagem de marcação',
-  },
-  {
-    teckname: 'CSS',
-    icon: cssImage,
-    description: 'Linguagem de folhas de estilos',
-  },
-  {
-    teckname: 'REACTJS',
-    icon: reactImage,
-    description: 'Biblioteca Front-End',
-  },
-  {
-    teckname: 'JAVASCRIPT',
+    teckname: 'Javascript',
     icon: javascriptImage,
     description: 'Linguagem de programação',
   },
   {
-    teckname: 'NODEJS',
+    teckname: 'Typescript',
+    icon: typescriptImage,
+    description: 'Linguagem de programação',
+  },
+  {
+    teckname: 'Reactjs',
+    icon: reactImage,
+    description: 'Biblioteca Front-End',
+  },
+  {
+    teckname: 'Docker',
+    icon: dockerImage,
+    description: 'Cointainerização',
+  },
+  {
+    teckname: 'Nodejs',
     icon: nodeImage,
     description: 'Biblioteca Back-End',
   },
   {
-    teckname: 'GIT',
+    teckname: 'Git',
     icon: gitImage,
     description: 'Versionamento de código',
   }

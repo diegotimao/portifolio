@@ -22,7 +22,7 @@ function Header() {
           <img src={Logo} alt="icon" />
           <ul className="menu-desk"> 
             <li><AnchorLink className='link' href='#sobre'>Sobre</AnchorLink></li>
-            <li><AnchorLink className='link' href='#tecks'>Conhecimentos</AnchorLink></li>
+            <li><AnchorLink className='link' href='#tecks'>Tecnologias</AnchorLink></li>
             <li><AnchorLink className='link' href='#projetos'>Projetos</AnchorLink></li>
             <li><AnchorLink className='link' href='#contato'>Contato</AnchorLink></li>
           </ul>
@@ -32,7 +32,7 @@ function Header() {
         </div>
         <ul className={toggle} >
           <AnchorLink className='link' href='#sobre'><li onClick={() => handleClick()}>Sobre</li></AnchorLink>
-          <AnchorLink className='link' href='#tecks'><li onClick={() => handleClick()}>Conhecimentos</li></AnchorLink>
+          <AnchorLink className='link' href='#tecks'><li onClick={() => handleClick()}>Tecnologias</li></AnchorLink>
           <AnchorLink className='link' href='#projetos'><li onClick={() => handleClick()}>Projetos</li></AnchorLink>
           <AnchorLink className='link' href='#contato'><li onClick={() => handleClick()}>Contato</li></AnchorLink>
         </ul>

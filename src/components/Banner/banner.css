@@ -1,5 +1,6 @@
 .banner-container {
-  background-image: url('../../assets/banner.svg');
+  background: #6C63FF;
+  /* background-image: url('../../assets/banner.svg'); */
   background-position: center;
   background-repeat: none;
   background-size: cover;
@@ -7,6 +8,7 @@
   border-bottom: 1px solid rgb(204, 199, 199);
   height: 620px;
   width: 100%;
+  z-index: 0;
 }
 
 .banner-content {
@@ -104,6 +106,12 @@
   justify-content: center;
   margin-bottom: 55px;
   width: 100%;
+  height: 55px;
+}
+
+.btn-bottom img {
+  width: 25px;
+  animation: drive 2s infinite ease-in-out;
 }
 
 .menu-list li {
@@ -115,6 +123,20 @@
 .menu-hamburguer-list {
   height: 100vh;
   width: 100vw;
+}
+
+@keyframes drive {
+  from {
+    width: 30px;
+    margin-top: -60px;
+    opacity: 0;
+  }
+
+  to {
+    margin-top: 2px;
+    width: 22px;
+    opacity: 1;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {

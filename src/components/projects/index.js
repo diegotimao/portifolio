@@ -15,7 +15,7 @@ function cardList() {
       <div className="content">
         <div className="info-project">
           <h1>Landing Pages</h1>
-          <strong>Confira alguns dos projetos que orgulho em ter feito</strong>
+          <strong>Confira alguns dos projetos que me orgulho em ter feito</strong>
         </div>
         <ul className="project-list">
           {projects.map((project) => (
