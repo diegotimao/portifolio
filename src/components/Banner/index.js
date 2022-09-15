@@ -4,7 +4,7 @@ import './banner.css';
 import Avatar from '../../assets/avatar.svg';
 import bottonIcon from '../../assets/bottonIcon.svg';
 import Cloud from '../../assets/cloud.svg';
-import url from '../../assets/curriculo.pdf'
+import url from '../../assets/curriculo-diego-cavalcanti-frontendjr.pdf'
 
 function Banner() {
 
