@@ -31,7 +31,7 @@ function Banner() {
                     alt="IconDownload" 
                     className="icon-social" 
                   />
-                  <span>Baixar curriculun</span>
+                  <span>Baixar curriculum</span>
               </button>
             </div>
           </div>
