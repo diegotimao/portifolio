@@ -29,7 +29,7 @@ function cardList() {
                     Code</button>
                   <button type="button" onClick={ () => handleClick(project.urlPreviwer)}>
                     <img src={ eyeIcon } alt="Icon Ver" />
-                    Previwer</button>
+                    Preview</button>
                 </div>
               </div>
               <div className="card-img" >
