@@ -47,4 +47,4 @@ O [TheMealDB](https://www.themealdb.com/) é um banco de dados aberto, mantido p
 
 ## Layout:
 
-![](./src/assets/layout.jpg)cebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](./src/assets/layout.jpg)
