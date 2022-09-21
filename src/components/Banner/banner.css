@@ -1,14 +1,29 @@
 .banner-container {
-  background: #6C63FF;
+  background: linear-gradient(45deg, #514f88, #6C63FF, #4f4ba1);
   /* background-image: url('../../assets/banner.svg'); */
   background-position: center;
   background-repeat: none;
-  background-size: cover;
+  background-size: 150% 150%;
   border-top: 1px solid rgb(204, 199, 199);
   border-bottom: 1px solid rgb(204, 199, 199);
   height: 620px;
   width: 100%;
   z-index: 0;
+  animation: colors ease 2s infinite;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 20% 100%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 .banner-content {

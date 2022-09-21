@@ -24,7 +24,7 @@ const tecks = [
   {
     teckname: 'Docker',
     icon: dockerImage,
-    description: 'Cointainerização',
+    description: 'Containerização',
   },
   {
     teckname: 'Nodejs',
