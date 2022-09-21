@@ -1,6 +1,5 @@
 # Portfólio
-  
-## Objetivo: 
+
 Prover uma aplicação que centraliza todas as informações refentes a contatos e projetos pessoais desenvolvidos. 
 
 
@@ -16,9 +15,6 @@ Neste projeto pude práticar e aprimorar meus conhecimentos em:
 - **React Hook**
 - **Figma** para design e layout da aplicação
 
-## Sobre
-
-
 ## Tecnologia
 
 As principais tecnologias que ultilizo em projetos
@@ -32,18 +28,8 @@ Esta sessão visa mostrar os principais projetos dos quais eu me orgulho ter fei
 A sessão de contatos conta conta com botões de redirecionamento imediato para o Whtasapp, linkendin e github. Simples e de fácil acesso.
 
 
-#### TheMealDB API
-
-O [TheMealDB](https://www.themealdb.com/) é um banco de dados aberto, mantido pela comunidade, com receitas e ingredientes de todo o mundo.
-
-#### The CockTailDB API
-
- A [The CockTailDB API](https://www.thecocktaildb.com/api.php) é bem similar (inclusive mantida pela mesma entidade) a TheMealDB API, só que focado em bebidas.
-
 ## Bibliotecas que contém neste projeto:
 * **[ReactJS](https://pt-br.reactjs.org/)**
-* **[Redux](https://redux.js.org/)**
-* **[React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)**
 
 ## Layout:
 
