@@ -4,7 +4,7 @@ Prover uma aplicação que centraliza todas as informações refentes a contatos
 
 
 > **Preview:**
-> 👉 [Recipes App](https://diegocti.vercel.app/)
+> 👉 [Portifólio](https://diegocti.vercel.app/)
 
 ## Habilidades: 
 
