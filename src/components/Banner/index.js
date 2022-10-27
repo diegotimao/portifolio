@@ -4,7 +4,7 @@ import './banner.css';
 import Avatar from '../../assets/avatar.svg';
 import bottonIcon from '../../assets/bottonIcon.svg';
 import Cloud from '../../assets/cloud.svg';
-import url from '../../assets/curriculo-diego-cavalcanti-frontendjr.pdf'
+import url from '../../assets/diego-curriculo.pdf'
 
 function Banner() {
 
@@ -18,7 +18,7 @@ function Banner() {
         <div className="sobre-user">
           <div className="user-description">
             <h1 data-aos="zoom-in">Diego Cavalcanti</h1>
-            <strong data-aos="zoom-in">Desenvolvedor Front-end Jr</strong>
+            <strong data-aos="zoom-in">Desenvolvedor FullStack Jr</strong>
             <div className="user-social">
               <button
                 type="button" 
