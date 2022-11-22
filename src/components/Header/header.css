@@ -1,5 +1,6 @@
 .header-container {
-  background: #ffffff;
+  background: #ebebf5;
+  border-bottom: 1px solid #e6e6e0;
   color: black;
   z-index: 1000;
   position: fixed;
@@ -42,7 +43,7 @@
 .nav-list li {
   background: rgb(245, 244, 244);
   border-radius: 4px;
-  color: rgb(85, 74, 74);
+  color: #6a6180;
   height: 55px;
   font-size: 16px;
   font-weight: bold;
