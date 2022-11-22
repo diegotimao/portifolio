@@ -1,6 +1,7 @@
 .header-container {
   background: #ffffff;
   color: black;
+  z-index: 1000;
   position: fixed;
   width: 100%;
 }
