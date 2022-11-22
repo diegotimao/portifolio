@@ -1,7 +1,7 @@
 .header-container {
-  background: #ebebf5;
+  background: #3F3D56;
   border-bottom: 1px solid #e6e6e0;
-  color: black;
+  color: rgb(245, 245, 245);
   z-index: 1000;
   position: fixed;
   width: 100%;
