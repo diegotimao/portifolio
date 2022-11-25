@@ -9,7 +9,7 @@ function Techs() {
   const [themeAplication, setTeamAplication] = useState('');
 
   useEffect(() => {
-    if (theme === 'lithe') return setTeamAplication('teck-container');
+    if (theme === 'lithe') return setTeamAplication('teck-container-lithe-theme');
     return setTeamAplication('teck-container-dark-theme');
   }, [theme]); 
  
