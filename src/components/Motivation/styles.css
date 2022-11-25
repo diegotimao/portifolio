@@ -1,0 +1,70 @@
+.my-container-litgh-theme {
+  width: 100%;
+  transition: 2s;
+  padding-bottom: 55px;
+}
+
+.my-container-dark-theme {
+  width: 100%;
+  transition: 2s;
+  padding-bottom: 55px;
+}
+
+.my-content {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  max-width: 1220px;
+}
+
+.my-sobre {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.my-sobre span {
+  color: #EB6608;
+}
+
+.my-sobre h1 {
+  font-size: 32px;
+}
+
+.my-sobre p {
+  line-height: 32px;
+  font-size: 16px;
+  text-align: justify
+}
+
+.photo-image {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 55px;
+  width: 100%;
+}
+
+.photo-image img {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 1024px) {
+  .my-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .my-sobre h1 {
+    font-size: 40px;
+  }
+
+  .my-sobre p {
+    font-size: 20px;
+  }
+}
