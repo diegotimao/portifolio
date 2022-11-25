@@ -1,6 +1,14 @@
+.teck-container-dark-theme {
+  background: black;
+  transition: 1s;
+  color: white;
+}
+
 .teck-container {
   border-bottom: 1px solid rgb(239, 232, 232);
   border-top: 1px solid rgb(239, 232, 232);
+  color: black;
+  transition: 2s;
   width: 100%;
 }
 
@@ -16,14 +24,12 @@
 }
 
 .teck-info h1 {
-  color: black;
   font-size: 32px;
   display: flex;
   justify-content: center;
 }
 
 .teck-info strong {
-  color: black;
   font-size: 18px;
   line-height: 29px;
   text-align: center;
@@ -50,6 +56,7 @@
 
 .teck-item {
   align-items: center;
+  color: white;
   background: #1e2230;
   border-radius: 6px;
   display: flex;
