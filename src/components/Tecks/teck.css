@@ -1,15 +1,18 @@
-.teck-container-dark-theme {
-  background: black;
-  transition: 1s;
-  color: white;
-}
 
-.teck-container {
+.teck-container-lithe-theme {
   border-bottom: 1px solid rgb(239, 232, 232);
   border-top: 1px solid rgb(239, 232, 232);
   color: black;
   transition: 2s;
   width: 100%;
+}
+
+.teck-container-dark-theme {
+  background: black;
+  border-top: 1px solid rgb(68, 68, 68);
+  border-bottom: 1px solid rgb(68, 68, 68);
+  transition: 1s;
+  color: white;
 }
 
 .teck-content {
