@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from "react";
 import './sobre.css';
 import AvatarSobre from '../../assets/avatar-sobre.svg';
 import cetepIcon from '../../assets/cetep.svg';
 import iconTrybe from '../../assets/icontrybe.svg';
+import { AuthContext } from "../../provider/auth";
+import Motivation from "../Motivation";
 
 function Sobre() {
+
+  const { theme } = useContext(AuthContext);
+  const [themeAplication, setTeamAplication] = useState('');
+
+  useEffect(() => {
+    if (theme === 'lithe') return setTeamAplication('sobre-container-lithe-theme');
+    return setTeamAplication('sobre-container-dark-theme');
+  }, [theme]); 
+
   return (
-    <section id="sobre" className="sobre-container">
+    <section id="sobre" className={ themeAplication }>
       <div className="sobre-content">
         <div className="avatar-user">
           <img src={ AvatarSobre } alt="Avatar-sobre" />
@@ -31,6 +42,7 @@ function Sobre() {
           </div>
         </div>
       </div>
+      <Motivation />
     </section>
   )
 }
