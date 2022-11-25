@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useContext, useState, useEffect } from "react";
+import { AuthContext } from "../../provider/auth";
 import tecks from '../../services/tecks';
 import './teck.css';
  
-function Tecks() {
+function Techs() {
+
+  const { theme } = useContext(AuthContext);
+  const [themeAplication, setTeamAplication] = useState('');
+
+  useEffect(() => {
+    if (theme === 'lithe') return setTeamAplication('teck-container');
+    return setTeamAplication('teck-container-dark-theme');
+  }, [theme]); 
+ 
   return (
-    <section id="tecks" className="teck-container">
+    <section id="tecks" className={ themeAplication }>
       <div className="teck-content">
         <div className="teck-info">
           <h1>Tecnologias</h1>
@@ -28,4 +38,4 @@ function Tecks() {
   )
 } 
 
-export default Tecks;
+export default Techs;
