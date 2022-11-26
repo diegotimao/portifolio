@@ -1,5 +1,5 @@
-import React from 'react';
-
+import React, { useContext, useEffect, useState } from 'react';
+import { AuthContext } from '../../provider/auth';
 import './contato.css';
 import contactus from '../../assets/contact.svg';
 import linkedinIcon from '../../assets/linkedinIcon.svg';
@@ -11,8 +11,16 @@ function Contato() {
     window.open(url, '_blanck');
   }
 
+  const { theme } = useContext(AuthContext);
+  const [themeAplication, setTeamAplication] = useState('');
+
+  useEffect(() => {
+    if (theme === 'lithe') return setTeamAplication('contato-container-lithe-theme');
+    return setTeamAplication('contato-container-dark-theme');
+  }, [theme]); 
+
   return (
-    <section id="contato" className="contato-container">
+    <section id="contato" className={ themeAplication }>
       <div className="contato-content">
         <div className="contact-image">
           <img src={contactus} alt="Contact Img" />

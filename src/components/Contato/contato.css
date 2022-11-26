@@ -1,5 +1,16 @@
-.contato-container {
+.contato-container-lithe-theme {
   border-top: 1px solid rgb(239, 232, 232);
+  color: black;
+  transition: 2ms;
+  padding: 20px;
+  width: 100%;
+}
+
+.contato-container-dark-theme {
+  background: black;
+  border-top: 1px solid rgb(68, 68, 68);
+  color: white;
+  transition: 2ms;
   padding: 20px;
   width: 100%;
 }
@@ -26,7 +37,6 @@
 }
 
 .contact-us {
-  color: black;
   display: flex;
   flex-direction: column;
   gap: 45px;

@@ -9,7 +9,6 @@ import Projetos from '../../components/projects';
 import Header from '../../components/Header';
 import Contato from '../../components/Contato';
 import Footer from '../../components/Footer';
-import Motiva from '../../components/motiva';
 
 function Home() {
   useEffect(() => {
@@ -21,7 +20,6 @@ function Home() {
       <Header />
       <Banner />
       <Sobre />
-      <Motiva />
       <Tecks />
       <Projetos />
       <Contato />

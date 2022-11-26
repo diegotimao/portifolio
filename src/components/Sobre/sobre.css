@@ -1,5 +1,14 @@
-.sobre-container {
+.sobre-container-lithe-theme {
   background: white;
+  color: black;
+  transition: 2ms;
+  width: 100%;
+}
+
+.sobre-container-dark-theme {
+  background-color: #1D2226;
+  transition: 2ms;
+  color: white;
   width: 100%;
 }
 
@@ -28,19 +37,16 @@
 
 .sobre-info h1 {
   font-size: 32px;
-  color: black;
   line-height: 31px;
   max-width: 320px;
 }
 
 .sobre-info p {
-  color: black;
   font-size: 16px;
   font-weight: 500;
 }
 
 .sobre-info strong {
-  color: black;
   font-size: 16px;
 }
 

@@ -1,9 +1,8 @@
 import React from 'react';
-
 import motivationImage from '../../assets/motivation.svg';
 import './styles.css';
 
-function motiva() {
+function Motivation() {
   return (
     <section className="my-container">
       <div className="my-content">
@@ -23,4 +22,4 @@ function motiva() {
   );
 }
 
-export default motiva;
+export default Motivation;

@@ -1,17 +1,25 @@
-import React from 'react';
-
+import React, { useContext, useEffect, useState } from 'react';
+import { AuthContext } from '../../provider/auth';
 import projects from '../../services/projects';
 import eyeIcon from '../../assets/eye1.svg';
 import ComandIcon from '../../assets/command1.svg';
 import './styles.css';
 
-function cardList() {
+function CardList() {
+  const { theme } = useContext(AuthContext);
+  const [themeAplication, setTeamAplication] = useState('');
+
+  useEffect(() => {
+    if (theme === 'lithe') return setTeamAplication('container-lithe-theme');
+    return setTeamAplication('container-dark-theme');
+  }, [theme]); 
+
   const handleClick = (url) => {
     window.open(url, '_blanck');
   }
 
   return (
-    <section id="projetos" className="container">
+    <section id="projetos" className={ themeAplication }>
       <div className="content">
         <div className="info-project">
           <h1>Landing Pages</h1>
@@ -43,4 +51,4 @@ function cardList() {
   );
 }
 
-export default cardList;
+export default CardList;

@@ -1,6 +1,12 @@
-.my-container {
-  background: white;
+.my-container-litgh-theme {
   width: 100%;
+  transition: 2ms;
+  padding-bottom: 55px;
+}
+
+.my-container-dark-theme {
+  width: 100%;
+  transition: 2ms;
   padding-bottom: 55px;
 }
 
@@ -13,7 +19,6 @@
 }
 
 .my-sobre {
-  color: black;
   display: flex;
   flex-direction: column;
   gap: 30px;
