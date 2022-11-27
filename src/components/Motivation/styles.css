@@ -1,12 +1,12 @@
 .my-container-litgh-theme {
   width: 100%;
-  transition: 2s;
+  transition: 2ms;
   padding-bottom: 55px;
 }
 
 .my-container-dark-theme {
   width: 100%;
-  transition: 2s;
+  transition: 2ms;
   padding-bottom: 55px;
 }
 
