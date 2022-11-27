@@ -2,14 +2,14 @@
   background: #fdfdfd;
   border-top: 1px solid rgb(234, 224, 224);
   color: rgb(71, 66, 66);
-  transition: 1s;
+  transition: 2ms;
   width: 100%;
 }
 
 .footer-container-dark-theme {
   background-color: #1D2226;
   border-top: 1px solid rgb(68, 68, 68);
-  transition: 1s;
+  transition: 2ms;
   color: white;
 }
 
