@@ -3,7 +3,7 @@
   border-bottom: 1px solid rgb(239, 232, 232);
   border-top: 1px solid rgb(239, 232, 232);
   color: black;
-  transition: 2s;
+  transition: 2ms;
   width: 100%;
 }
 
@@ -11,7 +11,7 @@
   background: black;
   border-top: 1px solid rgb(68, 68, 68);
   border-bottom: 1px solid rgb(68, 68, 68);
-  transition: 1s;
+  transition: 2ms;
   color: white;
 }
 

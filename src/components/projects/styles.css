@@ -2,7 +2,7 @@
   background: white;
   color: black;
   width: 100%;
-  transition: 1s;
+  transition: 2ms;
   padding-bottom: 55px;
 }
 
@@ -10,7 +10,7 @@
   background-color: #1D2226;
   color: white;
   width: 100%;
-  transition: 1s;
+  transition: 2ms;
   padding-bottom: 55px;
 }
 
