@@ -4,11 +4,15 @@ import './header.css';
 import Logo from '../../assets/logo.png';
 import MenuIcon from '../../assets/menu.svg';
 import { AuthContext } from '../../provider/auth';
+import SunIcon from '../../assets/sun.svg';
+import MonICon from '../../assets/moon.svg';
+
 
 function Header() {
 
   const { theme, setTheme } = useContext(AuthContext);
   const [toggle, setTogle] = useState('nav-list-toggle');
+  const [IconTheme, setIconTheme] = useState(MonICon);
 
   const handleClick = () => {
     if (toggle === 'nav-list') {
@@ -18,7 +22,11 @@ function Header() {
   }
 
   const onChangeTheme = () => {
-    if (theme === 'lithe') return setTheme('dark');
+    if (theme === 'lithe') {
+      setIconTheme(SunIcon);
+      return setTheme('dark')
+    };
+    setIconTheme(MonICon);
     return setTheme('lithe');
   }
 
@@ -32,11 +40,20 @@ function Header() {
             <li><AnchorLink className='link' href='#tecks'>Tecnologias</AnchorLink></li>
             <li><AnchorLink className='link' href='#projetos'>Projetos</AnchorLink></li>
             <li><AnchorLink className='link' href='#contato'>Contato</AnchorLink></li>
-            <li><button type='button' onClick={ () => onChangeTheme() }>Teme</button></li>
+            <li>
+              <button className='btn-theme' type='button' onClick={ () => onChangeTheme() }>
+                <img src={ IconTheme } alt="Icon Theme" />
+              </button>
+            </li>
           </ul>
-          <button type="button" className="btn-toggle" onClick={ () => handleClick()}>
-            <img src={MenuIcon} alt="Botão menu" />
-          </button>
+          <div className='togle'>
+            <button className='btn-theme' type='button' onClick={ () => onChangeTheme() }>
+                <img src={ IconTheme } alt="Icon Theme" />
+              </button>
+            <button type="button" className="btn-toggle" onClick={ () => handleClick()}>
+              <img src={MenuIcon} alt="Botão menu" />
+            </button>
+          </div>
         </div>
         <ul className={toggle} >
           <AnchorLink className='link' href='#sobre'><li onClick={() => handleClick()}>Sobre</li></AnchorLink>
