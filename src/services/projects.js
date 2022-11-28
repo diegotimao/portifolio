@@ -21,14 +21,14 @@ const projects = [
   {
     image: recipes,
     title: 'Recipes App',
-    description: 'Aplicativo de receitas consumindo api de comidas e bebidas, desenvolvida em ResactJs utilizando o redux.',
+    description: 'Aplicativo de receitas consumindo api de comidas e bebidas, desenvolvida em React utilizando o redux.',
     urlPreviwer: 'https://recipes-app-red-eight.vercel.app/foods',
     urlCode: 'https://github.com/diegotimao/recipes-app',
   },
   {
     image: pixelsImage,
     title: 'Pixels arte',
-    description: 'Paleta de cores em javascript vanilha com manipulação de eventos e funções puras do javascript.',
+    description: 'Paleta de cores em javascript vanilla com manipulação de eventos e funções puras do javascript.',
     urlPreviwer: 'https://trybe-projeto-pixels-art.vercel.app/',
     urlCode: 'https://github.com/diegotimao/trybe-projeto-pixels-art',
   }
