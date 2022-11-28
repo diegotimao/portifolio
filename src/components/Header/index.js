@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './header.css';
 import Logo from '../../assets/logo.png';
@@ -13,6 +13,7 @@ function Header() {
   const { theme, setTheme } = useContext(AuthContext);
   const [toggle, setTogle] = useState('nav-list-toggle');
   const [IconTheme, setIconTheme] = useState(MonICon);
+  const [themeHeader, setThemeHeader] = useState('');
 
   const handleClick = () => {
     if (toggle === 'nav-list') {
@@ -30,8 +31,13 @@ function Header() {
     return setTheme('lithe');
   }
 
+  useEffect(() => {
+    if (theme === 'lithe') return setThemeHeader('header-container-ligth-theme');
+    setThemeHeader('header-container-black-theme');
+  }, [theme])
+
   return (
-    <nav className="header-container">
+    <nav className={ themeHeader }>
       <div className="header-content">
         <div className="menu">
           <img src={Logo} alt="icon" />
