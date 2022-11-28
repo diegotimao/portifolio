@@ -27,7 +27,7 @@ function Contato() {
         </div>
         <div className="contact-us">
           <h1>Contato</h1>
-          <p>Para dúvidas, sugestões, feedbacks entre outros, basta escolher  uma das opções abaixo. Será um prazer matermos contato.</p>
+          <p>Para dúvidas, sugestões, feedbacks entre outros, basta escolher  uma das opções abaixo. Será um prazer mantermos contato.</p>
           <div className="btn-contact">
             <button type="button" onClick={ () => handleClick('https://api.whatsapp.com/send?phone=75992171243')}>
               <img src={whats} alt="Icon Whats" />

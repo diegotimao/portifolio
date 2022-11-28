@@ -1,4 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import './sobre.css';
 import AvatarSobre from '../../assets/avatar-sobre.svg';
 import cetepIcon from '../../assets/cetep.svg';
@@ -16,6 +18,10 @@ function Sobre() {
     return setTeamAplication('sobre-container-dark-theme');
   }, [theme]); 
 
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, [])
+  
   return (
     <section id="sobre" className={ themeAplication }>
       <div className="sobre-content">

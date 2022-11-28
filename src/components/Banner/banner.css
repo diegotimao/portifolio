@@ -1,24 +1,34 @@
-.banner-container {
+.banner-container-ligth-theme {
   background: linear-gradient(45deg, #514f88, #6C63FF, #4f4ba1);
-  /* background-image: url('../../assets/banner.svg'); */
   background-position: center;
   background-repeat: none;
   background-size: 150% 150%;
   border-top: 1px solid rgb(204, 199, 199);
-  border-bottom: 1px solid rgb(204, 199, 199);
-  height: 620px;
+  height: 100vh;
   width: 100%;
   z-index: 0;
   animation: colors ease 2s infinite;
 }
 
+.banner-container-black-theme {
+  background: linear-gradient(45deg, #29273d, #312f7e, #4f4c75);
+  background-position: center;
+  background-repeat: none;
+  background-size: 150% 150%;
+  border-top: 1px solid rgb(204, 199, 199);
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+  animation: colors ease 2s infinite;
+}
+ 
 @keyframes colors {
   0% {
     background-position: 0 50%;
   }
 
   50% {
-    background-position: 20% 100%;
+    background-position: 10% 100%;
   }
 
   100% {
@@ -119,7 +129,6 @@
 .btn-bottom {
   display: flex;
   justify-content: center;
-  margin-bottom: 55px;
   width: 100%;
   height: 55px;
 }
@@ -143,12 +152,12 @@
 @keyframes drive {
   from {
     width: 30px;
-    margin-top: -60px;
+    margin-top: -30px;
     opacity: 0;
   }
 
   to {
-    margin-top: 2px;
+    margin-top: 20px;
     width: 22px;
     opacity: 1;
   }
