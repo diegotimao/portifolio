@@ -1,19 +1,31 @@
-import React from "react";
-
+import React, { useContext, useEffect, useState } from 'react';
+import Aos from "aos";
 import './banner.css';
 import Avatar from '../../assets/avatar.svg';
 import bottonIcon from '../../assets/bottonIcon.svg';
 import Cloud from '../../assets/cloud.svg';
 import url from '../../assets/diego-curriculo.pdf'
+import { AuthContext } from '../../provider/auth';
 
 function Banner() {
+  const { theme } = useContext(AuthContext);
+  const [ themeBanner, setThemeBanner ] = useState('');
 
   const getVitae = () => {
     return  window.open(url, 'Download');
   }
 
+  useEffect(() => {
+    if (theme === 'lithe') return setThemeBanner('banner-container-ligth-theme');
+    return setThemeBanner('banner-container-black-theme')
+  }, [theme]);
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, [])
+
   return (
-    <section className="banner-container">
+    <section className={ themeBanner }>
       <div className="banner-content">
         <div className="sobre-user">
           <div className="user-description">
