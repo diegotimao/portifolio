@@ -12,3 +12,7 @@ body {
   color: white;
   -webkit-font-smoothing: antialiased;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
