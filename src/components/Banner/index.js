@@ -43,7 +43,7 @@ function Banner() {
                     alt="IconDownload" 
                     className="icon-social" 
                   />
-                  <span>Baixar curriculum</span>
+                  <span>Currículo PDF</span>
               </button>
             </div>
           </div>
