@@ -1,16 +1,12 @@
-
 .teck-container-lithe-theme {
   border-bottom: 1px solid rgb(239, 232, 232);
-  border-top: 1px solid rgb(239, 232, 232);
   color: black;
   transition: 2ms;
   width: 100%;
 }
 
 .teck-container-dark-theme {
-  background: black;
-  border-top: 1px solid rgb(68, 68, 68);
-  border-bottom: 1px solid rgb(68, 68, 68);
+  background: #1B1D22;
   transition: 2ms;
   color: white;
 }
@@ -27,14 +23,15 @@
 }
 
 .teck-info h1 {
-  font-size: 32px;
+  font-size: 30px;
   display: flex;
   justify-content: center;
 }
 
 .teck-info strong {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 29px;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -69,10 +66,9 @@
 }
 
 .teck-item h2 {
-  font-size: 19px;
+  font-size: 18px;
   margin-top: 2px;
 }
-
 
 .teck-item img {
   width: 50px;
@@ -87,7 +83,7 @@
   .tec-info strong {
     font-size: 26px;
   }
-  
+
   .list {
     display: grid;
     gap: 20px;
@@ -113,12 +109,12 @@
   }
 
   .teck-info h1 {
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
   }
 
   .teck-info strong {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 29px;
     max-width: 500px;
