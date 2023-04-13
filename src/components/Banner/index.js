@@ -26,6 +26,18 @@ function Banner() {
 
   return (
     <section className={themeBanner}>
+      <div className='circles'>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <div className="banner-content">
         <div className="sobre-user">
           <div className="user-description">
@@ -43,7 +55,7 @@ function Banner() {
                   alt="IconDownload"
                   className="icon-social"
                 />
-                <span>Currículo</span>
+                <span>Ver currículo em PDF</span>
               </button>
             </div>
           </div>
