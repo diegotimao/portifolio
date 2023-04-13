@@ -30,12 +30,11 @@
 }
 
 .info-project h1 {
-  font-size: 32px;
+  font-size: 38px;
 }
 
-
 .info-project strong {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   text-align: center;
@@ -63,7 +62,6 @@
   width: 100%;
 }
 
-
 .card-info {
   display: flex;
   flex-direction: column;
@@ -73,34 +71,35 @@
 }
 
 .card-info h1 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 500;
 }
 
 .card-info span {
   line-height: 26px;
-  font-size: 19px;
+  font-size: 16px;
 }
 
 .btn {
   display: flex;
+  align-items: center;
   gap: 10px;
 }
 
 .btn button {
   align-items: center;
-  background: #6b62fe;
+  background: black;
   border: none;
-  border-radius: 4px;
+  border-radius: 25px;
   color: white;
   cursor: pointer;
   display: flex;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 16px;
   gap: 15px;
   height: 45px;
   justify-content: center;
-  width: 155px;
+  width: 175px;
 }
 
 .github {
@@ -152,6 +151,14 @@
     flex-direction: row;
   }
 
+  .card-info h1 {
+    font-size: 38px;
+  }
+
+  .card-info span {
+    font-size: 18px;
+  }
+
   .card-info {
     width: 50%;
   }
@@ -160,7 +167,4 @@
     width: 50%;
   }
 
-  .info-project h1 {
-    font-size: 40px;
-  }
 }

@@ -12,17 +12,17 @@ function CardList() {
   useEffect(() => {
     if (theme === 'lithe') return setTeamAplication('container-lithe-theme');
     return setTeamAplication('container-dark-theme');
-  }, [theme]); 
+  }, [theme]);
 
   const handleClick = (url) => {
     window.open(url, '_blanck');
   }
 
   return (
-    <section id="projetos" className={ themeAplication }>
+    <section id="projetos" className={themeAplication}>
       <div className="content">
         <div className="info-project">
-          <h1>Landing Pages</h1>
+          <h1>Projetos</h1>
           <strong>Confira alguns dos projetos que me orgulho em ter feito</strong>
         </div>
         <ul className="project-list">
@@ -32,11 +32,11 @@ function CardList() {
                 <h1>{project.title}</h1>
                 <span>{project.description}</span>
                 <div className="btn">
-                  <button type="button" onClick={ () => handleClick(project.urlCode)}>
-                    <img src={ ComandIcon } alt="Icon Comand" />
+                  <button type="button" onClick={() => handleClick(project.urlCode)}>
+                    <img src={ComandIcon} alt="Icon Comand" />
                     Code</button>
-                  <button type="button" onClick={ () => handleClick(project.urlPreviwer)}>
-                    <img src={ eyeIcon } alt="Icon Ver" />
+                  <button type="button" onClick={() => handleClick(project.urlPreviwer)}>
+                    <img src={eyeIcon} alt="Icon Ver" />
                     Preview</button>
                 </div>
               </div>

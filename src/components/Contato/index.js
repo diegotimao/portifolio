@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../provider/auth';
 import './contato.css';
-import contactus from '../../assets/contact.svg';
+import contactus from '../../assets/contact.png';
 import linkedinIcon from '../../assets/linkedinIcon.svg';
 import whats from '../../assets/whats.svg';
 import gitHubIcon from '../../assets/github.svg';
@@ -17,10 +17,10 @@ function Contato() {
   useEffect(() => {
     if (theme === 'lithe') return setTeamAplication('contato-container-lithe-theme');
     return setTeamAplication('contato-container-dark-theme');
-  }, [theme]); 
+  }, [theme]);
 
   return (
-    <section id="contato" className={ themeAplication }>
+    <section id="contato" className={themeAplication}>
       <div className="contato-content">
         <div className="contact-image">
           <img src={contactus} alt="Contact Img" />
@@ -29,15 +29,15 @@ function Contato() {
           <h1>Contato</h1>
           <p>Para dúvidas, sugestões, feedbacks entre outros, basta escolher  uma das opções abaixo. Será um prazer mantermos contato.</p>
           <div className="btn-contact">
-            <button type="button" onClick={ () => handleClick('https://api.whatsapp.com/send?phone=75992171243')}>
+            <button type="button" onClick={() => handleClick('https://api.whatsapp.com/send?phone=75992171243')}>
               <img src={whats} alt="Icon Whats" />
               <span>Whatsapp</span>
             </button>
-            <button type="button" onClick={ () => handleClick('https://www.linkedin.com/in/diegocti/')}>
+            <button type="button" onClick={() => handleClick('https://www.linkedin.com/in/diegocti/')}>
               <img src={linkedinIcon} alt="Icon Linkedin" />
               <span>Linkedin</span>
             </button>
-            <button type="button" onClick={ () => handleClick('https://github.com/diegotimao')}>
+            <button type="button" onClick={() => handleClick('https://github.com/diegotimao')}>
               <img src={gitHubIcon} alt="Github icon" />
               <span>Github</span>
             </button>

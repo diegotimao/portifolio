@@ -37,26 +37,26 @@ function Header() {
   }, [theme])
 
   return (
-    <nav className={ themeHeader }>
+    <nav className={themeHeader}>
       <div className="header-content">
         <div className="menu">
           <img src={Logo} alt="icon" />
-          <ul className="menu-desk"> 
+          <ul className="menu-desk">
             <li><AnchorLink className='link' href='#sobre'>Sobre</AnchorLink></li>
             <li><AnchorLink className='link' href='#tecks'>Tecnologias</AnchorLink></li>
             <li><AnchorLink className='link' href='#projetos'>Projetos</AnchorLink></li>
             <li><AnchorLink className='link' href='#contato'>Contato</AnchorLink></li>
             <li>
-              <button className='btn-theme' type='button' onClick={ () => onChangeTheme() }>
-                <img src={ IconTheme } alt="Icon Theme" />
+              <button className='btn-theme' type='button' onClick={() => onChangeTheme()}>
+                <img src={IconTheme} alt="Icon Theme" />
               </button>
             </li>
           </ul>
           <div className='togle'>
-            <button className='btn-theme' type='button' onClick={ () => onChangeTheme() }>
-                <img src={ IconTheme } alt="Icon Theme" />
-              </button>
-            <button type="button" className="btn-toggle" onClick={ () => handleClick()}>
+            <button className='btn-theme' type='button' onClick={() => onChangeTheme()}>
+              <img src={IconTheme} alt="Icon Theme" />
+            </button>
+            <button type="button" className="btn-toggle" onClick={() => handleClick()}>
               <img src={MenuIcon} alt="Botão menu" />
             </button>
           </div>
@@ -67,8 +67,8 @@ function Header() {
           <AnchorLink className='link' href='#projetos'><li onClick={() => handleClick()}>Projetos</li></AnchorLink>
           <AnchorLink className='link' href='#contato'><li onClick={() => handleClick()}>Contato</li></AnchorLink>
         </ul>
-      </div> 
-    </nav> 
+      </div>
+    </nav>
   );
 }
 

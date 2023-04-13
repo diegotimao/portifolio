@@ -36,7 +36,7 @@
 }
 
 .sobre-info h1 {
-  font-size: 32px;
+  font-size: 30px;
   line-height: 31px;
   max-width: 320px;
 }
@@ -57,18 +57,29 @@
 .oraganization {
   align-items: center;
   display: flex;
-  justify-content: space-between;
   margin-top: 25px;
   width: 100%;
 }
 
 .organizatios-icon {
   display: flex;
-  gap: 15px;
+  flex-direction: column;
+  gap: -20px;
+  align-items: flex-start;
 }
 
 .organizatios-icon img {
-  width: 45px;
+  width: 40px;
+}
+
+.formacao {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+
+.formacao strong {
+  font-weight: 300;
 }
 
 .btn-sobre-user {
@@ -110,17 +121,17 @@
   }
 
   .sobre-info h1 {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 700;
     line-height: 55px;
     max-width: 390px;
   }
 
   .sobre-info p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .sobre-info strong {
-    font-size: 20px;
+    font-size: 18px;
   }
 }

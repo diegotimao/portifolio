@@ -1,5 +1,16 @@
 .banner-container-ligth-theme {
-  background: linear-gradient(45deg, #514f88, #6C63FF, #4f4ba1);
+  background: #4E54C8;
+  background-position: center;
+  background-repeat: none;
+  background-size: 150% 150%;
+  border-top: 1px solid rgb(204, 199, 199);
+  height: 100vh;
+  width: 100%;
+  animation: colors ease 2s infinite;
+}
+
+.banner-container-black-theme {
+  background: linear-gradient(#272B35, #4b5263);
   background-position: center;
   background-repeat: none;
   background-size: 150% 150%;
@@ -10,18 +21,117 @@
   animation: colors ease 2s infinite;
 }
 
-.banner-container-black-theme {
-  background: linear-gradient(45deg, #29273d, #312f7e, #4f4c75);
-  background-position: center;
-  background-repeat: none;
-  background-size: 150% 150%;
-  border-top: 1px solid rgb(204, 199, 199);
-  height: 100vh;
+.circles {
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
   width: 100%;
-  z-index: 0;
-  animation: colors ease 2s infinite;
+  height: 100%;
+  overflow: hidden;
 }
- 
+
+@keyframes identifier {
+  0% {
+    margin-top: 0;
+    opacity: 1;
+    border-radius: 0;
+    transform: translate(0) rotate(0deg);
+  }
+
+  100% {
+    margin-top: 100%;
+    opacity: 0;
+    border-radius: 50%;
+    transform: translate(-1000px) rotate(820deg);
+  }
+}
+
+.circles div {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgb(255, 255, 255, 0.2);
+  margin-bottom: -150px;
+  animation: identifier 25s linear infinite;
+}
+
+.circles div:nth-child(1) {
+  margin-left: 35%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.circles div:nth-child(2) {
+  margin-left: 15%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles div:nth-child(3) {
+  margin-left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles div:nth-child(4) {
+  margin-left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles div:nth-child(5) {
+  margin-left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles div:nth-child(6) {
+  margin-left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles div:nth-child(7) {
+  margin-left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles div:nth-child(8) {
+  margin-left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles div:nth-child(9) {
+  margin-left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles div:nth-child(10) {
+  margin-left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
 @keyframes colors {
   0% {
     background-position: 0 50%;
@@ -98,20 +208,20 @@
 .btn-github {
   align-items: center;
   background: #EB6608;
-  border-radius: 6px;
+  border-radius: 30px;
   border: none;
   color: white;
   cursor: pointer;
   display: flex;
   text-decoration: none;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   gap: 15px;
   justify-content: center;
   transition: ease-in-out;
   transition-duration: 5ms;
-  width: 254px;
-  height: 54px;
+  width: 300px;
+  height: 60px;
 }
 
 .btn-github:hover {

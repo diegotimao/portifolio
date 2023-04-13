@@ -7,8 +7,7 @@
 }
 
 .contato-container-dark-theme {
-  background: black;
-  border-top: 1px solid rgb(68, 68, 68);
+  background: #1B1D22;
   color: white;
   transition: 2ms;
   padding: 20px;
@@ -43,11 +42,11 @@
 }
 
 .contact-us h1 {
-  font-size: 46px;
+  font-size: 30px;
 }
 
 .contact-us p {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 26px;
   text-align: justify;
 }
@@ -68,7 +67,7 @@
   font-weight: 700;
   font-size: 17px;
   gap: 10px;
-  height: 55px;
+  height: 85px;
   transition: ease-in-out;
   justify-content: center;
   outline: none;
@@ -76,7 +75,9 @@
 }
 
 .btn-contact button span {
-  font-size: 18px;
+  color: rgb(241, 234, 234);
+  font-size: 19px;
+  font-weight: bold;
   margin-top: 5px;
 }
 
@@ -84,12 +85,16 @@
   background: rgb(1, 111, 255);
 }
 
+.btn-contact button img {
+  width: 35px;
+}
+
 .btn-contact button:first-child {
   background: #07B36C;
 }
 
 .btn-contact button:first-child img {
-  width: 25px;
+  width: 35px;
 }
 
 .btn-contact button:first-child:hover {
@@ -105,13 +110,21 @@
 }
 
 .btn-contact button:last-child img {
-  width: 25px;
+  width: 35px;
 }
 
-@media screen and (min-width: 968px){
+@media screen and (min-width: 968px) {
   .contato-content {
     display: flex;
     flex-direction: row;
+  }
+
+  .contact-us h1 {
+    font-size: 38px;
+  }
+
+  .contact-us p {
+    font-size: 18px;
   }
 
   .btn-contact {
@@ -119,6 +132,7 @@
     gap: 5px;
     grid-template-columns: repeat(3, 1fr);
   }
+
   .contact-image {
     width: 50%;
   }
