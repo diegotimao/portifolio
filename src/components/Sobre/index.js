@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import './sobre.css';
-import AvatarSobre from '../../assets/diego-sobre1.png';
+import AvatarSobre from '../../assets/diego-sobre.png';
 import cetepIcon from '../../assets/cetep-icon.png';
 import iconTrybe from '../../assets/trybe-icon.png';
 import { AuthContext } from "../../provider/auth";
