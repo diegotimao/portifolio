@@ -1,4 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { AuthContext } from '../../provider/auth';
 import './contato.css';
 import contactus from '../../assets/contact.png';
@@ -19,11 +21,15 @@ function Contato() {
     return setTeamAplication('contato-container-dark-theme');
   }, [theme]);
 
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, [])
+
   return (
     <section id="contato" className={themeAplication}>
       <div className="contato-content">
         <div className="contact-image">
-          <img src={contactus} alt="Contact Img" />
+          <img src={contactus} alt="Contact Img" data-aos="zoom-in-up" />
         </div>
         <div className="contact-us">
           <h1>Contato</h1>

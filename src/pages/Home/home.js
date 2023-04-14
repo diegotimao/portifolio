@@ -8,8 +8,6 @@ import Contato from '../../components/Contato';
 import Footer from '../../components/Footer';
 
 function Home() {
-  
-
   return (
     <main>
       <Header />
