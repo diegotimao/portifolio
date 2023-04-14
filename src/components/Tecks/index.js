@@ -6,7 +6,6 @@ import tecks from '../../services/tecks';
 import './teck.css';
 
 function Techs() {
-
   const { theme } = useContext(AuthContext);
   const [themeAplication, setTeamAplication] = useState('');
 
