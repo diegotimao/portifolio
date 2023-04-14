@@ -22,14 +22,14 @@ function Contato() {
   }, [theme]);
 
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 3000 });
   }, [])
 
   return (
     <section id="contato" className={themeAplication}>
       <div className="contato-content">
         <div className="contact-image">
-          <img src={contactus} alt="Contact Img" data-aos="zoom-out" />
+          <img src={contactus} alt="Contact Img" data-aos="zoom-in-up" />
         </div>
         <div className="contact-us">
           <h1>Contato</h1>

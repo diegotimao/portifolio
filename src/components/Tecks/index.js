@@ -15,7 +15,7 @@ function Techs() {
   }, [theme]);
 
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 3000 });
   }, [])
 
   return (
@@ -28,7 +28,7 @@ function Techs() {
         <div className="teck-list">
           <div className="list">
             {tecks.map((teck) => (
-              <div key={teck.teckname} className="teck-item" data-aos="fade-up">
+              <div key={teck.teckname} className="teck-item" data-aos="fade-right">
                 <img src={teck.icon} alt={teck.teckname} />
                 <div className="teck-info-project">
                   <h2>{teck.teckname}</h2>
