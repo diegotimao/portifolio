@@ -1,13 +1,15 @@
 .footer-container-lithe-theme {
   background: black;
-  color: rgb(71, 66, 66);
+  color: rgb(255, 255, 255);
   transition: 2ms;
+  height: 75px;
   width: 100%;
 }
 
 .footer-container-dark-theme {
   background-color: black;
   transition: 2ms;
+  height: 75px;
   color: white;
 }
 

@@ -9,7 +9,6 @@ import { AuthContext } from "../../provider/auth";
 import Motivation from "../Motivation";
 
 function Sobre() {
-
   const { theme } = useContext(AuthContext);
   const [themeAplication, setTeamAplication] = useState('');
 
@@ -19,7 +18,7 @@ function Sobre() {
   }, [theme]);
 
   useEffect(() => {
-    Aos.init({ duration: 3000 });
+    Aos.init({ duration: 1500 });
   }, [])
 
   return (
@@ -42,11 +41,11 @@ function Sobre() {
 
           <div className="oraganization">
             <div className="organizatios-icon">
-              <div className="formacao" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" >
+              <div className="formacao" data-aos="fade-down">
                 <img src={iconTrybe} alt="Trybe icon" />
                 <strong>Formado em Desenvolvimento Web</strong>
               </div>
-              <div className="formacao" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
+              <div className="formacao" data-aos="fade-down">
                 <img src={cetepIcon} alt="Cetep icon" />
                 <strong>Formado em Técnico de Informática</strong>
               </div>

@@ -1,4 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { AuthContext } from '../../provider/auth';
 import projects from '../../services/projects';
 import eyeIcon from '../../assets/eye1.svg';
@@ -17,6 +19,10 @@ function CardList() {
   const handleClick = (url) => {
     window.open(url, '_blanck');
   }
+
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, [])
 
   return (
     <section id="projetos" className={themeAplication}>
