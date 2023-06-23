@@ -4,7 +4,7 @@ import './banner.css';
 import Avatar from '../../assets/avatar.svg';
 import bottonIcon from '../../assets/bottonIcon.svg';
 import Cloud from '../../assets/cloud.svg';
-import url from '../../assets/diego-curriculo.pdf'
+import url from '../../assets/curriculo_diego.pdf'
 import { AuthContext } from '../../provider/auth';
 
 function Banner() {
