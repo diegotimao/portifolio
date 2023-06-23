@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import { AuthContext } from '../../provider/auth';
 import projects from '../../services/projects';
 import eyeIcon from '../../assets/eye1.svg';
-import ComandIcon from '../../assets/command1.svg';
+import { FileScan, Globe2 } from 'lucide-react';
 import './styles.css';
 
 function CardList() {
@@ -39,11 +39,11 @@ function CardList() {
                 <span>{project.description}</span>
                 <div className="btn">
                   <button type="button" onClick={() => handleClick(project.urlCode)}>
-                    <img src={ComandIcon} alt="Icon Comand" />
-                    Code</button>
+                    <FileScan />
+                    Código</button>
                   <button type="button" onClick={() => handleClick(project.urlPreviwer)}>
-                    <img src={eyeIcon} alt="Icon Ver" />
-                    Preview</button>
+                    <Globe2 />
+                    Vizualizar</button>
                 </div>
               </div>
               <div className="card-img" >
