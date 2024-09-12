@@ -3,7 +3,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { AuthContext } from '../../provider/auth';
 import projects from '../../services/projects';
-import eyeIcon from '../../assets/eye1.svg';
 import { FileScan, Globe2 } from 'lucide-react';
 import './styles.css';
 
