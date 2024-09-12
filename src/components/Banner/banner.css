@@ -191,12 +191,18 @@
 }
 
 .user-description h1 {
-  font-size: 42px;
+  font-size: 57px;
 }
 
 .user-description strong {
   color: #00ff95;
   font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.user-description p {
+  font-size: 24px;
+  white-space: pre-line;
 }
 
 .user-social {
