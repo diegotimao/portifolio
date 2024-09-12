@@ -53,7 +53,21 @@
   align-items: center;
   display: flex;
   flex-direction: column-reverse;
+  padding-bottom: 50px;
   gap: 25px;
+}
+
+.container-lithe-theme .project-card {
+  border-bottom: 2px solid #DDDDE0;
+}
+
+.container-dark-theme .project-card {
+  border-bottom: 2px solid #48484F;
+}
+
+.project-card:last-child {
+  border-bottom: none !important;
+  padding-bottom: 10px !important; 
 }
 
 .card-img {
