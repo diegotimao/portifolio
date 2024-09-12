@@ -1,14 +1,17 @@
+.footer-container-dark-theme,
 .footer-container-lithe-theme {
-  background: black;
-  color: rgb(255, 255, 255);
-  transition: 2ms;
+  transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
+.footer-container-lithe-theme {
+  background-color: #F0F0F7;
+  color: black;
   height: 75px;
   width: 100%;
 }
 
 .footer-container-dark-theme {
   background-color: black;
-  transition: 2ms;
   height: 75px;
   color: white;
 }
@@ -18,8 +21,9 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding: 20px;
+  justify-content: center;
   margin: 0 auto;
+  height: 100%;
   max-width: 1200px;
 }
 
