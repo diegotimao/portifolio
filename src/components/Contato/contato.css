@@ -1,15 +1,18 @@
+.contato-container-dark-theme,
 .contato-container-lithe-theme {
-  background: white;
+  transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
+.contato-container-lithe-theme {
+  background-color: white;
   color: black;
-  transition: 2ms;
   padding: 20px;
   width: 100%;
 }
 
 .contato-container-dark-theme {
-  background: #1B1D22;
+  background-color: #1B1D22;
   color: white;
-  transition: 2ms;
   padding: 20px;
   width: 100%;
 }

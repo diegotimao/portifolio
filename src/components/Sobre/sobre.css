@@ -1,13 +1,16 @@
+.sobre-container-dark-theme,
 .sobre-container-lithe-theme {
-  background: #F0F0F7;
+  transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
+.sobre-container-lithe-theme {
+  background-color: #F0F0F7;
   color: black;
-  transition: 2ms;
   width: 100%;
 }
 
 .sobre-container-dark-theme {
   background-color: #1D2226;
-  transition: 2ms;
   color: white;
   width: 100%;
 }

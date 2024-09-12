@@ -1,13 +1,16 @@
+.teck-container-dark-theme,
 .teck-container-lithe-theme {
-  background: white;
+  transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
+.teck-container-lithe-theme {
+  background-color: white;
   color: black;
-  transition: 2ms;
   width: 100%;
 }
 
 .teck-container-dark-theme {
-  background: #1B1D22;
-  transition: 2ms;
+  background-color: #1B1D22;
   color: white;
 }
 

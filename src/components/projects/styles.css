@@ -1,8 +1,12 @@
+.container-dark-theme,
 .container-lithe-theme {
-  background: #F0F0F7;
+  transition: background-color 0.5s ease-out, color 0.4s ease-out;
+}
+
+.container-lithe-theme {
+  background-color: #F0F0F7; /* Use background-color para manter a consistência */
   color: black;
   width: 100%;
-  transition: 2ms;
   padding-bottom: 55px;
 }
 
@@ -10,7 +14,6 @@
   background-color: #1D2226;
   color: white;
   width: 100%;
-  transition: 2ms;
   padding-bottom: 55px;
 }
 

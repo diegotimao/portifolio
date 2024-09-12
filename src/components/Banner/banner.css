@@ -1,5 +1,10 @@
+.banner-container-dark-theme,
+.banner-container-lithe-theme {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 .banner-container-ligth-theme {
-  background: #4E54C8;
+  background-color: #4E54C8;
   background-position: center;
   background-repeat: none;
   background-size: 150% 150%;
