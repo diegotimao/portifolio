@@ -34,8 +34,8 @@ function Contato() {
         <div className="contact-us">
           <h1>Contato</h1>
           <div className='cantato-description'>
-            <p>Adoraria ouvir de você! Se tiver perguntas, sugestões ou quiser conversar sobre tecnologia, entre em contato. Veja abaixo como se conectar comigo. Estou ansioso para suas ideias!</p>
-            <p>Escolha um canal para falar diretamente comigo. Seja para discutir projetos ou trocar ideias sobre tecnologia, estou sempre aberto a novas conversas.</p>
+            <p>Adoraria ouvir de você! Se tiver perguntas, sugestões ou quiser conversar sobre tecnologia, entre em contato. Veja abaixo como se conectar comigo.</p>
+            <p>Estou ansioso para suas ideias!</p>
           </div>
 
           <div className="btn-contact">
