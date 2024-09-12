@@ -45,10 +45,17 @@
   font-size: 30px;
 }
 
-.contact-us p {
+.cantato-description {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.cantato-description p {
   font-size: 16px;
   line-height: 26px;
   text-align: justify;
+  padding-button: 20px;
 }
 
 .btn-contact {
