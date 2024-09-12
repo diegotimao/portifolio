@@ -3,8 +3,9 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { AuthContext } from '../../provider/auth';
 import projects from '../../services/projects';
-import { FileScan, Globe2 } from 'lucide-react';
+import { Github } from 'lucide-react';
 import './styles.css';
+import { Sofa } from 'lucide-react';
 
 function CardList() {
   const { theme } = useContext(AuthContext);
@@ -38,11 +39,11 @@ function CardList() {
                 <span>{project.description}</span>
                 <div className="btn">
                   <button type="button" onClick={() => handleClick(project.urlCode)}>
-                    <FileScan />
-                    Código</button>
+                    <Github />
+                    Ver no GitHub</button>
                   <button type="button" onClick={() => handleClick(project.urlPreviwer)}>
-                    <Globe2 />
-                    Vizualizar</button>
+                    <Sofa />
+                    Demo ao Vivo</button>
                 </div>
               </div>
               <div className="card-img" >
