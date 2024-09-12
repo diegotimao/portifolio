@@ -11,6 +11,10 @@ import Motivation from "../Motivation";
 function Sobre() {
   const { theme } = useContext(AuthContext);
   const [themeAplication, setTeamAplication] = useState('');
+  
+  const getYears = new Date();
+  const years = getYears.getFullYear();
+  const agePerson = years - 1997;
 
   useEffect(() => {
     if (theme === 'lithe') return setTeamAplication('sobre-container-lithe-theme');
@@ -30,24 +34,23 @@ function Sobre() {
         <div className="sobre-info">
           <h1>Vou contar um pouco sobre mim</h1>
 
-          <p>Me chamo Diego, tenho 25 anos e moro em Paulo Afonso na Bahia.
-            Sou formado em Técnico de Informática, já atuei na área de suporte
-            a Ti. Atualmente estudante de Desenvolvimento Web na Trybe.</p>
+          <p>Olá, meu nome é Diego, tenho {agePerson} anos e resido em Paulo Afonso, 
+            na Bahia. Sou graduado em Técnico de Informática e tenho 
+            experiência prática na área de suporte técnico, onde atuei como jovem aprendiz.</p>
 
-          <strong>Para mim a tecnologia é um mar de possibilidades,
-            com ela tenho o poder para dar vida as idéias e soluções.
-            E saber que as minhas linhas de código podem impactar
-            diretamente na vida das pessoas é muito gratificante.</strong>
+          <h4>Vejo a tecnologia como um vasto campo de possibilidades. Ela me oferece o poder de transformar 
+            ideias em soluções concretas. A sensação de saber que minhas linhas de código podem ter um impacto
+            positivo na vida das pessoas é extremamente gratificante.</h4>
 
           <div className="oraganization">
             <div className="organizatios-icon">
               <div className="formacao" data-aos="fade-down">
                 <img src={iconTrybe} alt="Trybe icon" />
-                <strong>Formado em Desenvolvimento Web</strong>
+                <strong>Formado em Desenvolvimento Web pela Trybe</strong>
               </div>
               <div className="formacao" data-aos="fade-down">
                 <img src={cetepIcon} alt="Cetep icon" />
-                <strong>Formado em Técnico de Informática</strong>
+                <strong>Formado em Técnico de Informática pelo Cetep</strong>
               </div>
             </div>
           </div>
