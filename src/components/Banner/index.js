@@ -4,7 +4,7 @@ import './banner.css';
 import Avatar from '../../assets/avatar.svg';
 import bottonIcon from '../../assets/bottonIcon.svg';
 import Cloud from '../../assets/cloud.svg';
-import url from '../../assets/curriculo_diego.pdf'
+import url from '../../assets/cv-diego-santos.pdf'
 import { AuthContext } from '../../provider/auth';
 
 function Banner() {
@@ -42,7 +42,11 @@ function Banner() {
         <div className="sobre-user">
           <div className="user-description">
             <h1 data-aos="zoom-in">Diego Cavalcanti</h1>
-            <strong data-aos="zoom-in">Desenvolvedor FullStack Jr</strong>
+            <strong>Desenvolvedor Fullstack Jr.</strong>
+            <p style={{"white-space": "pre-line"}}>
+              Focado em criar soluções web e otimizar 
+              experiências digitais com paixão e inovação.
+            </p>
             <div className="user-social">
               <button
                 type="button"
@@ -55,7 +59,7 @@ function Banner() {
                   alt="IconDownload"
                   className="icon-social"
                 />
-                <span>Ver currículo em PDF</span>
+                <span>Veja currículo</span>
               </button>
             </div>
           </div>
