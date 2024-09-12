@@ -59,7 +59,7 @@ function Banner() {
                   alt="IconDownload"
                   className="icon-social"
                 />
-                <span>Veja currículo</span>
+                <span>Veja meu currículo</span>
               </button>
             </div>
           </div>
