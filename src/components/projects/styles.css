@@ -58,11 +58,11 @@
 }
 
 .container-lithe-theme .project-card {
-  border-bottom: 2px solid #DDDDE0;
+  border-bottom: 1px solid #DDDDE0;
 }
 
 .container-dark-theme .project-card {
-  border-bottom: 2px solid #48484F;
+  border-bottom: 1px solid #48484F;
 }
 
 .project-card:last-child {
