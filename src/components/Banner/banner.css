@@ -216,10 +216,10 @@
   margin-top: 35px;
 }
 
-.btn-github {
+.btn-curriculo {
   align-items: center;
   background: #EB6608;
-  border-radius: 30px;
+  border-radius: 8px;
   border: none;
   color: white;
   cursor: pointer;
@@ -231,11 +231,11 @@
   justify-content: center;
   transition: ease-in-out;
   transition-duration: 5ms;
-  width: 300px;
+  width: 250px;
   height: 60px;
 }
 
-.btn-github:hover {
+.btn-curriculo:hover {
   background: #f5781e;
 }
 

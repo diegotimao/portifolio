@@ -51,7 +51,7 @@ function Banner() {
               <button
                 type="button"
                 onClick={() => getVitae()}
-                className="btn-github"
+                className="btn-curriculo"
                 data-aos="zoom-in"
               >
                 <img
