@@ -6,7 +6,6 @@ import './contato.css';
 import contactus from '../../assets/contact.png';
 import linkedinIcon from '../../assets/linkedinIcon.svg';
 import whats from '../../assets/whats.svg';
-import gitHubIcon from '../../assets/github.svg';
 
 function Contato() {
   const handleClick = (url) => {
@@ -46,10 +45,6 @@ function Contato() {
             <button type="button" onClick={() => handleClick('https://www.linkedin.com/in/diegocti/')}>
               <img src={linkedinIcon} alt="Icon Linkedin" />
               <span>Linkedin</span>
-            </button>
-            <button type="button" onClick={() => handleClick('https://github.com/diegotimao')}>
-              <img src={gitHubIcon} alt="Github icon" />
-              <span>Github</span>
             </button>
           </div>
         </div>
