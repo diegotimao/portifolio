@@ -52,6 +52,15 @@ function CardList() {
             </li>
           ))}
         </ul>
+        <div className="acess-github">
+          <div className="acess-github-content">
+            <Github size={35} color={'#212830'} />
+            <p>Para mais projetos como estes você pode acessar meu perfil no github.</p>
+          </div>
+          <button type="button" onClick={() => handleClick('https://github.com/diegotimao')}>
+            <span>Acessar</span>
+          </button>
+        </div>
       </div>
     </section>
   );
