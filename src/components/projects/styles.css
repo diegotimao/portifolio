@@ -18,7 +18,7 @@
 }
 
 .content {
-  padding: 40px 20px;
+  padding: 20px 20px;
   margin: 0 auto;
   max-width: 1220px;
 }
@@ -107,7 +107,7 @@
   align-items: center;
   background: black;
   border: none;
-  border-radius: 25px;
+  border-radius: 8px;
   color: white;
   cursor: pointer;
   display: flex;
@@ -160,6 +160,42 @@
   font-weight: 700;
   height: 40px;
   width: 150px;
+}
+
+.acess-github {
+  background-color: white;
+  border: 1px solid #E6E6F0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  margin-top: 50px;
+  height: 70px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.acess-github-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.acess-github-content p {
+  color: black;
+}
+
+.acess-github button {
+  background-color: #212830;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  width: 175px;
+}
+
+.acess-github button span {
+  font-size: 18px;
+  font-weight: semi-bold;
 }
 
 @media screen and (min-width: 768px) {
